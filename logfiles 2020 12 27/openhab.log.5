@@ -1,0 +1,1178 @@
+2020-12-24 10:53:07.681 [WARN ] [org.apache.felix.fileinstall        ] - Error while starting bundle: file:/usr/share/openhab/addons/org.openhab.binding.broadlink-2.5.9.jar
+org.osgi.framework.BundleException: Could not resolve module: org.openhab.binding.broadlink [22]
+  Unresolved requirement: Import-Package: org.eclipse.smarthome.config.core
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444) ~[org.eclipse.osgi-3.12.100.jar:?]
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.start(EquinoxBundle.java:383) ~[org.eclipse.osgi-3.12.100.jar:?]
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundle(DirectoryWatcher.java:1260) [bundleFile:3.6.4]
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundles(DirectoryWatcher.java:1233) [bundleFile:3.6.4]
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:520) [bundleFile:3.6.4]
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:365) [bundleFile:3.6.4]
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.run(DirectoryWatcher.java:316) [bundleFile:3.6.4]
+2020-12-24 10:54:07.430 [INFO ] [org.openhab.ui.internal.UIService   ] - Started UI on port 8080
+2020-12-24 10:54:31.701 [INFO ] [.core.internal.i18n.I18nProviderImpl] - Time zone set to 'Europe/Brussels'.
+2020-12-24 10:54:31.718 [INFO ] [.core.internal.i18n.I18nProviderImpl] - Location set to '51.180536783336244,4.387538731098176'.
+2020-12-24 10:54:31.727 [INFO ] [.core.internal.i18n.I18nProviderImpl] - Locale set to 'nl_BE'.
+2020-12-24 10:54:51.315 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_25.things'
+2020-12-24 10:54:52.597 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_18.things'
+2020-12-24 10:54:52.727 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_50.things'
+2020-12-24 10:54:52.944 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_5.things'
+2020-12-24 10:54:53.025 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_0_tunnel.things'
+2020-12-24 10:54:53.117 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_8.things'
+2020-12-24 10:54:53.259 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_7.things'
+2020-12-24 10:54:53.352 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_16.things'
+2020-12-24 10:54:53.481 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_11.things'
+2020-12-24 10:54:53.551 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_14.things'
+2020-12-24 10:54:53.616 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_ntp.things'
+2020-12-24 10:54:53.670 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_15.things'
+2020-12-24 10:54:53.767 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_12.things'
+2020-12-24 10:54:53.847 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_19.things'
+2020-12-24 10:54:53.911 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_devices.things'
+2020-12-24 10:54:54.063 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_3.things'
+2020-12-24 10:54:54.166 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_2.things'
+2020-12-24 10:54:54.242 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_ntp.items'
+2020-12-24 10:54:54.457 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_3.items'
+2020-12-24 10:54:54.502 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_devices.items'
+2020-12-24 10:54:54.634 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_8.items'
+2020-12-24 10:54:54.741 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_16.items'
+2020-12-24 10:54:54.796 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_18.items'
+2020-12-24 10:54:54.888 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_5.items'
+2020-12-24 10:54:54.924 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_14.items'
+2020-12-24 10:54:54.967 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_19.items'
+2020-12-24 10:54:55.007 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_12.items'
+2020-12-24 10:54:55.059 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_50.items'
+2020-12-24 10:54:55.205 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_7.items'
+2020-12-24 10:54:55.272 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_25.items'
+2020-12-24 10:54:55.311 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_15.items'
+2020-12-24 10:54:55.425 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_11.items'
+2020-12-24 10:54:55.473 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_2.items'
+2020-12-24 10:54:59.054 [INFO ] [.core.model.lsp.internal.ModelServer] - Started Language Server Protocol (LSP) service on port 5007
+2020-12-24 10:55:04.717 [INFO ] [e.automation.internal.RuleEngineImpl] - Rule engine started.
+2020-12-24 10:59:36.148 [INFO ] [rt.modbus.internal.ModbusManagerImpl] - Modbus manager activated
+2020-12-24 10:59:36.462 [ERROR] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance
+2020-12-24 10:59:39.470 [INFO ] [rnal.service.RemoteControllerService] - Using None interface
+2020-12-24 10:59:40.695 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to '192.168.3.103' with clientid bb190ef1-0482-43be-8f05-8bbce1ac1fa8
+2020-12-24 10:59:50.138 [WARN ] [luxdb.internal.InfluxDBConfiguration] - InfluxDB configuration isn't valid. Addon won't work:  No credentials
+2020-12-24 10:59:50.144 [WARN ] [.influxdb.InfluxDBPersistenceService] - Some configuration properties are not valid {service.config.factory=false, service.pid=org.openhab.influxdb, service.config.category=persistence, service.config.label=InfluxDB Persistence Service, component.name=org.openhab.persistence.influxdb.InfluxDBPersistenceService, component.id=341, service.config.description.uri=persistence:influxdb}
+2020-12-24 10:59:50.150 [ERROR] [.influxdb.InfluxDBPersistenceService] - Cannot load configuration, persistence service wont work
+2020-12-24 11:00:00.644 [WARN ] [rg.openhab.core.io.net.exec.ExecUtil] - Failed to execute commandLine '[arping, --help]'
+2020-12-24 11:00:01.385 [WARN ] [core.thing.internal.ThingManagerImpl] - Initializing handler for thing 'chromecast:chromecast:c1011d37f859ef88773fb0b8b96c9417' takes more than 5000ms.
+2020-12-24 11:00:02.097 [INFO ] [ternal.dhcp.DHCPPacketListenerServer] - DHCP request packet listener online
+2020-12-24 11:00:04.800 [WARN ] [rg.openhab.core.io.net.exec.ExecUtil] - Failed to execute commandLine '[arping, --help]'
+2020-12-24 11:00:07.248 [INFO ] [ab.ui.habpanel.internal.HABPanelTile] - Started HABPanel at /habpanel
+2020-12-24 11:00:31.009 [WARN ] [hi.software.os.linux.LinuxFileSystem] - Failed to get information to use statvfs. path: /media/pi/rootfs, Error code: 13
+2020-12-24 11:00:31.020 [WARN ] [hi.software.os.linux.LinuxFileSystem] - Failed to get information to use statvfs. path: /media/pi/boot, Error code: 13
+2020-12-24 12:00:39.154 [INFO ] [rnal.service.RemoteControllerService] - Using Legacy interface
+2020-12-24 12:28:43.187 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastTodaySunrise
+2020-12-24 12:28:43.196 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastTodaySunset
+2020-12-24 12:28:43.204 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localStationName
+2020-12-24 12:28:43.210 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrentTemperature
+2020-12-24 12:28:43.218 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrentCondition
+2020-12-24 12:28:43.229 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrentIconId
+2020-12-24 12:28:43.594 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastTodaySunrise
+2020-12-24 12:28:43.600 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastTodaySunset
+2020-12-24 12:28:43.606 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localStationName
+2020-12-24 12:28:43.610 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrentTemperature
+2020-12-24 12:28:43.613 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrentCondition
+2020-12-24 12:28:43.617 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrentIconId
+2020-12-24 12:28:43.620 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour1Temperature
+2020-12-24 12:28:43.624 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour1PrecipProb
+2020-12-24 12:28:43.627 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour2IconId
+2020-12-24 12:28:43.630 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour2Temperature
+2020-12-24 12:28:43.634 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour2PrecipProb
+2020-12-24 12:28:43.638 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour3IconId
+2020-12-24 12:28:43.642 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour3Temperature
+2020-12-24 12:28:43.645 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour3PrecipProb
+2020-12-24 12:28:43.649 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour4IconId
+2020-12-24 12:28:43.653 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour4Temperature
+2020-12-24 12:28:43.657 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour4PrecipProb
+2020-12-24 12:28:43.660 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour5IconId
+2020-12-24 12:28:43.664 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour5Temperature
+2020-12-24 12:28:43.668 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour5PrecipProb
+2020-12-24 12:28:43.671 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour6IconId
+2020-12-24 12:28:43.675 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour6Temperature
+2020-12-24 12:28:43.679 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour6PrecipProb
+2020-12-24 12:28:43.683 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour7IconId
+2020-12-24 12:28:43.687 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour7Temperature
+2020-12-24 12:28:43.690 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour7PrecipProb
+2020-12-24 12:28:43.697 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour8IconId
+2020-12-24 12:28:43.701 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour8Temperature
+2020-12-24 12:28:43.706 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour8PrecipProb
+2020-12-24 12:28:43.710 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour9IconId
+2020-12-24 12:28:43.715 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour9Temperature
+2020-12-24 12:28:43.719 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour9PrecipProb
+2020-12-24 12:28:43.723 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour10IconId
+2020-12-24 12:28:43.727 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour10Temperature
+2020-12-24 12:28:43.732 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour10PrecipProb
+2020-12-24 12:28:43.737 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour11IconId
+2020-12-24 12:28:43.742 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour11Temperature
+2020-12-24 12:28:43.746 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour11PrecipProb
+2020-12-24 12:28:43.750 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastTomorrowSunrise
+2020-12-24 12:28:43.755 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastTomorrowSunset
+2020-12-24 12:28:43.760 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour12IconId
+2020-12-24 12:28:43.766 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour12Temperature
+2020-12-24 12:28:43.770 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour12PrecipProb
+2020-12-24 12:28:43.775 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour13IconId
+2020-12-24 12:28:43.779 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour13Temperature
+2020-12-24 12:28:43.785 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour13PrecipProb
+2020-12-24 12:53:41.710 [ERROR] [rg.apache.cxf.jaxrs.utils.JAXRSUtils] - No message body reader has been found for class java.lang.String, ContentType: application/octet-stream
+2020-12-24 12:53:41.726 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-24 12:53:41.766 [WARN ] [s.impl.WebApplicationExceptionMapper] - javax.ws.rs.WebApplicationException: HTTP 415 Unsupported Media Type
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.readFromMessageBody(JAXRSUtils.java:1382)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.processRequestBodyParameter(JAXRSUtils.java:877)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.processParameters(JAXRSUtils.java:822)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:214)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:78)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:216)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:301)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:220)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:276)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:852)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:544)
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceServletHandler.doHandle(HttpServiceServletHandler.java:71)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:536)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1581)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1307)
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceContext.doHandle(HttpServiceContext.java:293)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:482)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1549)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1204)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:80)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:494)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:374)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:268)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:367)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:782)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:918)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2020-12-24 12:55:10.770 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localStationName
+2020-12-24 12:55:10.778 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Iconid
+2020-12-24 12:55:10.782 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist:  Current_Iconid
+2020-12-24 12:55:10.786 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Condition
+2020-12-24 12:55:10.790 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-24 12:55:10.794 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-24 12:55:10.798 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-24 12:55:10.802 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Temperature
+2020-12-24 12:55:10.806 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Windspeed
+2020-12-24 12:55:10.810 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours02_Iconid
+2020-12-24 12:55:10.814 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours02_Temperature
+2020-12-24 12:55:10.818 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours02_Windspeed
+2020-12-24 12:55:10.822 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours03_Iconid
+2020-12-24 12:55:10.826 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours03_Temperature
+2020-12-24 12:55:10.830 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours03_Windspeed
+2020-12-24 12:55:10.834 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours04_Iconid
+2020-12-24 12:55:10.838 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours04_Temperature
+2020-12-24 12:55:10.842 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours04_Windspeed
+2020-12-24 12:55:10.846 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours05_Iconid
+2020-12-24 12:55:10.851 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours05_Temperature
+2020-12-24 12:55:10.855 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours05_Windspeed
+2020-12-24 12:55:10.859 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours06_Iconid
+2020-12-24 12:55:10.863 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours06_Temperature
+2020-12-24 12:55:10.867 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours06_Windspeed
+2020-12-24 12:55:10.871 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours07_Iconid
+2020-12-24 12:55:10.875 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours07_Temperature
+2020-12-24 12:55:10.879 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours07_Windspeed
+2020-12-24 12:55:10.883 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours08_Iconid
+2020-12-24 12:55:10.887 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours08_Temperature
+2020-12-24 12:55:10.891 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours08_Windspeed
+2020-12-24 12:55:10.896 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours09_Iconid
+2020-12-24 12:55:10.899 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours09_Temperature
+2020-12-24 12:55:10.904 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours09_Windspeed
+2020-12-24 12:55:10.907 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours10_Iconid
+2020-12-24 12:55:10.912 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours10_Temperature
+2020-12-24 12:55:10.916 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours10_Windspeed
+2020-12-24 12:55:10.922 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours11_Iconid
+2020-12-24 12:55:10.928 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours11_Temperature
+2020-12-24 12:55:10.933 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours11_Windspeed
+2020-12-24 12:55:10.937 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours12_Iconid
+2020-12-24 12:55:10.942 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours12_Temperature
+2020-12-24 12:55:10.947 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours12_Windspeed
+2020-12-24 12:58:21.496 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-24 12:59:04.134 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-24 12:59:48.776 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-24 13:00:19.597 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-24 13:03:36.946 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-24 13:21:41.312 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-24 13:22:32.005 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-24 13:22:44.602 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-24 14:16:52.095 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-24 14:20:40.127 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-24 14:21:07.596 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-24 14:21:18.683 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localStationName
+2020-12-24 14:21:18.686 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Iconid
+2020-12-24 14:21:18.690 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist:  Current_Iconid
+2020-12-24 14:21:18.693 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Condition
+2020-12-24 14:21:18.696 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-24 14:21:18.698 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-24 14:21:18.701 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-24 14:21:18.704 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Temperature
+2020-12-24 14:21:18.707 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Windspeed
+2020-12-24 14:21:18.710 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours02_Iconid
+2020-12-24 14:21:18.713 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours02_Temperature
+2020-12-24 14:21:18.716 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours02_Windspeed
+2020-12-24 14:21:18.719 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours03_Iconid
+2020-12-24 14:21:18.722 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours03_Temperature
+2020-12-24 14:21:18.725 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours03_Windspeed
+2020-12-24 14:21:18.728 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours04_Iconid
+2020-12-24 14:21:18.731 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours04_Temperature
+2020-12-24 14:21:18.733 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours04_Windspeed
+2020-12-24 14:21:18.736 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours05_Iconid
+2020-12-24 14:21:18.740 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours05_Temperature
+2020-12-24 14:21:18.744 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours05_Windspeed
+2020-12-24 14:21:18.748 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours06_Iconid
+2020-12-24 14:21:18.751 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours06_Temperature
+2020-12-24 14:21:18.755 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours06_Windspeed
+2020-12-24 14:21:18.758 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours07_Iconid
+2020-12-24 14:21:18.762 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours07_Temperature
+2020-12-24 14:21:18.765 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours07_Windspeed
+2020-12-24 14:21:18.769 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours08_Iconid
+2020-12-24 14:21:18.772 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours08_Temperature
+2020-12-24 14:21:18.776 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours08_Windspeed
+2020-12-24 14:21:18.779 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours09_Iconid
+2020-12-24 14:21:18.784 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours09_Temperature
+2020-12-24 14:21:18.788 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours09_Windspeed
+2020-12-24 14:21:18.792 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours10_Iconid
+2020-12-24 14:21:18.797 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours10_Temperature
+2020-12-24 14:21:18.801 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours10_Windspeed
+2020-12-24 14:21:18.805 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours11_Iconid
+2020-12-24 14:21:18.809 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours11_Temperature
+2020-12-24 14:21:18.814 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours11_Windspeed
+2020-12-24 14:21:18.818 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours12_Iconid
+2020-12-24 14:21:18.822 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours12_Temperature
+2020-12-24 14:21:18.826 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours12_Windspeed
+2020-12-24 14:21:40.286 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-24 14:22:56.239 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localStationName
+2020-12-24 14:22:56.246 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Iconid
+2020-12-24 14:22:56.252 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist:  Current_Iconid
+2020-12-24 14:22:56.258 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Condition
+2020-12-24 14:22:56.266 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-24 14:22:56.271 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-24 14:22:56.275 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-24 14:22:56.278 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Temperature
+2020-12-24 14:22:56.282 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Windspeed
+2020-12-24 14:22:56.286 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours02_Iconid
+2020-12-24 14:22:56.289 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours02_Temperature
+2020-12-24 14:22:56.293 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours02_Windspeed
+2020-12-24 14:22:56.297 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours03_Iconid
+2020-12-24 14:22:56.301 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours03_Temperature
+2020-12-24 14:22:56.304 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours03_Windspeed
+2020-12-24 14:22:56.308 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours04_Iconid
+2020-12-24 14:22:56.312 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours04_Temperature
+2020-12-24 14:22:56.315 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours04_Windspeed
+2020-12-24 14:22:56.319 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours05_Iconid
+2020-12-24 14:22:56.323 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours05_Temperature
+2020-12-24 14:22:56.327 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours05_Windspeed
+2020-12-24 14:22:56.330 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours06_Iconid
+2020-12-24 14:22:56.333 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours06_Temperature
+2020-12-24 14:22:56.336 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours06_Windspeed
+2020-12-24 14:22:56.338 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours07_Iconid
+2020-12-24 14:22:56.341 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours07_Temperature
+2020-12-24 14:22:56.344 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours07_Windspeed
+2020-12-24 14:22:56.347 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours08_Iconid
+2020-12-24 14:22:56.349 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours08_Temperature
+2020-12-24 14:22:56.352 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours08_Windspeed
+2020-12-24 14:22:56.355 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours09_Iconid
+2020-12-24 14:22:56.359 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours09_Temperature
+2020-12-24 14:22:56.362 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours09_Windspeed
+2020-12-24 14:22:56.365 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours10_Iconid
+2020-12-24 14:22:56.369 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours10_Temperature
+2020-12-24 14:22:56.372 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours10_Windspeed
+2020-12-24 14:22:56.375 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours11_Iconid
+2020-12-24 14:22:56.379 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours11_Temperature
+2020-12-24 14:22:56.382 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours11_Windspeed
+2020-12-24 14:22:56.385 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours12_Iconid
+2020-12-24 14:22:56.389 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours12_Temperature
+2020-12-24 14:22:56.392 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours12_Windspeed
+2020-12-24 14:23:13.468 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-24 14:27:32.387 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-24 17:38:45.705 [WARN ] [ore.io.rest.auth.internal.AuthFilter] - Unauthorized API request: Error while processing JWT token
+2020-12-24 20:29:08.002 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastTodaySunrise
+2020-12-24 20:29:08.009 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastTodaySunset
+2020-12-24 20:29:08.012 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localStationName
+2020-12-24 20:29:08.016 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrentTemperature
+2020-12-24 20:29:08.019 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrentCondition
+2020-12-24 20:29:08.023 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrentIconId
+2020-12-24 20:29:08.026 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour1Temperature
+2020-12-24 20:29:08.033 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour1PrecipProb
+2020-12-24 20:29:08.036 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour2IconId
+2020-12-24 20:29:08.041 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour2Temperature
+2020-12-24 20:29:08.044 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour2PrecipProb
+2020-12-24 20:29:08.048 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour3IconId
+2020-12-24 20:29:08.052 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour3Temperature
+2020-12-24 20:29:08.056 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour3PrecipProb
+2020-12-24 20:29:08.059 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour4IconId
+2020-12-24 20:29:08.067 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour4Temperature
+2020-12-24 20:29:08.071 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour4PrecipProb
+2020-12-24 20:29:08.075 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour5IconId
+2020-12-24 20:29:08.079 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour5Temperature
+2020-12-24 20:29:08.084 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour5PrecipProb
+2020-12-24 20:29:08.088 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour6IconId
+2020-12-24 20:29:08.093 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour6Temperature
+2020-12-24 20:29:08.097 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour6PrecipProb
+2020-12-24 20:29:08.102 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour7IconId
+2020-12-24 20:29:08.106 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour7Temperature
+2020-12-24 20:29:08.111 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour7PrecipProb
+2020-12-24 20:29:08.114 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour8IconId
+2020-12-24 20:29:08.118 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour8Temperature
+2020-12-24 20:29:08.122 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour8PrecipProb
+2020-12-24 20:29:08.126 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour9IconId
+2020-12-24 20:29:08.130 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour9Temperature
+2020-12-24 20:29:08.134 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour9PrecipProb
+2020-12-24 20:29:08.137 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour10IconId
+2020-12-24 20:29:08.141 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour10Temperature
+2020-12-24 20:29:08.145 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour10PrecipProb
+2020-12-24 20:29:08.149 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour11IconId
+2020-12-24 20:29:08.153 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour11Temperature
+2020-12-24 20:29:08.157 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour11PrecipProb
+2020-12-24 20:29:08.160 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastTomorrowSunrise
+2020-12-24 20:29:08.164 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastTomorrowSunset
+2020-12-24 20:29:08.168 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour12IconId
+2020-12-24 20:29:08.172 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour12Temperature
+2020-12-24 20:29:08.176 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour12PrecipProb
+2020-12-24 20:29:08.179 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour13IconId
+2020-12-24 20:29:08.183 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour13Temperature
+2020-12-24 20:29:08.187 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour13PrecipProb
+2020-12-24 20:33:39.411 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastTodaySunrise
+2020-12-24 20:33:39.430 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastTodaySunset
+2020-12-24 20:33:39.435 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localStationName
+2020-12-24 20:33:39.439 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrentTemperature
+2020-12-24 20:33:39.443 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrentCondition
+2020-12-24 20:33:39.446 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrentIconId
+2020-12-24 20:33:39.450 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour1Temperature
+2020-12-24 20:33:39.454 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour1PrecipProb
+2020-12-24 20:33:39.458 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour2IconId
+2020-12-24 20:33:39.462 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour2Temperature
+2020-12-24 20:33:39.466 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour2PrecipProb
+2020-12-24 20:33:39.470 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour3IconId
+2020-12-24 20:33:39.474 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour3Temperature
+2020-12-24 20:33:39.477 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour3PrecipProb
+2020-12-24 20:33:39.482 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour4IconId
+2020-12-24 20:33:39.484 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour4Temperature
+2020-12-24 20:33:39.487 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour4PrecipProb
+2020-12-24 20:33:39.490 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour5IconId
+2020-12-24 20:33:39.493 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour5Temperature
+2020-12-24 20:33:39.496 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour5PrecipProb
+2020-12-24 20:33:39.498 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour6IconId
+2020-12-24 20:33:39.501 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour6Temperature
+2020-12-24 20:33:39.504 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour6PrecipProb
+2020-12-24 20:33:39.507 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour7IconId
+2020-12-24 20:33:39.509 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour7Temperature
+2020-12-24 20:33:39.512 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour7PrecipProb
+2020-12-24 20:33:39.515 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour8IconId
+2020-12-24 20:33:39.518 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour8Temperature
+2020-12-24 20:33:39.521 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour8PrecipProb
+2020-12-24 20:33:39.525 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour9IconId
+2020-12-24 20:33:39.529 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour9Temperature
+2020-12-24 20:33:39.538 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour9PrecipProb
+2020-12-24 20:33:39.542 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour10IconId
+2020-12-24 20:33:39.545 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour10Temperature
+2020-12-24 20:33:39.549 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour10PrecipProb
+2020-12-24 20:33:39.553 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour11IconId
+2020-12-24 20:33:39.557 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour11Temperature
+2020-12-24 20:33:39.560 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour11PrecipProb
+2020-12-24 20:33:39.564 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastTomorrowSunrise
+2020-12-24 20:33:39.567 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastTomorrowSunset
+2020-12-24 20:33:39.570 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour12IconId
+2020-12-24 20:33:39.574 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour12Temperature
+2020-12-24 20:33:39.578 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour12PrecipProb
+2020-12-24 20:33:39.582 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour13IconId
+2020-12-24 20:33:39.585 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour13Temperature
+2020-12-24 20:33:39.588 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localForecastHour13PrecipProb
+2020-12-24 22:37:37.362 [WARN ] [su.litvak.chromecast.api.v2.Channel ] - Error while reading, caused by su.litvak.chromecast.api.v2.ChromeCastException: Remote socket closed
+2020-12-24 22:37:37.381 [WARN ] [su.litvak.chromecast.api.v2.Channel ] -  <--  null payload in message 
+2020-12-24 23:20:35.243 [WARN ] [su.litvak.chromecast.api.v2.Channel ] - Error while reading, caused by su.litvak.chromecast.api.v2.ChromeCastException: Remote socket closed
+2020-12-24 23:20:35.246 [WARN ] [su.litvak.chromecast.api.v2.Channel ] -  <--  null payload in message 
+2020-12-25 00:21:10.986 [INFO ] [rnal.service.RemoteControllerService] - Using Legacy interface
+2020-12-25 02:08:56.658 [WARN ] [su.litvak.chromecast.api.v2.Channel ] - Error while reading, caused by javax.net.ssl.SSLException: Connection reset
+2020-12-25 02:08:56.663 [WARN ] [su.litvak.chromecast.api.v2.Channel ] -  <--  null payload in message 
+2020-12-25 06:10:34.266 [ERROR] [rg.apache.cxf.jaxrs.utils.JAXRSUtils] - No message body reader has been found for class java.lang.String, ContentType: application/octet-stream
+2020-12-25 06:10:34.279 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 06:10:34.280 [WARN ] [s.impl.WebApplicationExceptionMapper] - javax.ws.rs.WebApplicationException: HTTP 415 Unsupported Media Type
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.readFromMessageBody(JAXRSUtils.java:1382)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.processRequestBodyParameter(JAXRSUtils.java:877)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.processParameters(JAXRSUtils.java:822)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:214)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:78)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:216)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:301)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:220)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:276)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:852)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:544)
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceServletHandler.doHandle(HttpServiceServletHandler.java:71)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:536)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1581)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1307)
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceContext.doHandle(HttpServiceContext.java:293)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:482)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1549)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1204)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:80)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:494)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:374)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:268)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:367)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:782)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:918)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2020-12-25 06:10:35.325 [ERROR] [rg.apache.cxf.jaxrs.utils.JAXRSUtils] - No message body reader has been found for class java.lang.String, ContentType: application/octet-stream
+2020-12-25 06:10:35.333 [WARN ] [s.impl.WebApplicationExceptionMapper] - javax.ws.rs.WebApplicationException: HTTP 415 Unsupported Media Type
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.readFromMessageBody(JAXRSUtils.java:1382)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.processRequestBodyParameter(JAXRSUtils.java:877)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.processParameters(JAXRSUtils.java:822)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:214)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:78)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:216)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:301)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:220)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:276)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:852)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:544)
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceServletHandler.doHandle(HttpServiceServletHandler.java:71)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:536)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1581)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1307)
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceContext.doHandle(HttpServiceContext.java:293)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:482)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1549)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1204)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:80)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:494)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:374)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:268)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:367)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:782)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:918)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2020-12-25 06:13:50.957 [ERROR] [rg.apache.cxf.jaxrs.utils.JAXRSUtils] - Problem with writing the data, class org.openhab.core.io.rest.Stream2JSONInputStream, ContentType: application/json
+2020-12-25 06:13:51.925 [WARN ] [ache.cxf.phase.PhaseInterceptorChain] - Interceptor for {http://resources.internal.rest.io.core.openhab.org/}SystemInfoResource has thrown exception, unwinding now
+org.apache.cxf.interceptor.Fault: Closed
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.handleWriteException(JAXRSOutInterceptor.java:396) ~[bundleFile:1.0.9]
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.serializeMessage(JAXRSOutInterceptor.java:272) ~[bundleFile:1.0.9]
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.handleWriteException(JAXRSOutInterceptor.java:398) ~[bundleFile:1.0.9]
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.serializeMessage(JAXRSOutInterceptor.java:272) ~[bundleFile:1.0.9]
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.processResponse(JAXRSOutInterceptor.java:122) ~[bundleFile:1.0.9]
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.handleMessage(JAXRSOutInterceptor.java:84) ~[bundleFile:1.0.9]
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308) [bundleFile:1.0.9]
+	at org.apache.cxf.interceptor.OutgoingChainInterceptor.handleMessage(OutgoingChainInterceptor.java:90) [bundleFile:1.0.9]
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308) [bundleFile:1.0.9]
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121) [bundleFile:1.0.9]
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267) [bundleFile:1.0.9]
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234) [bundleFile:1.0.9]
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208) [bundleFile:1.0.9]
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160) [bundleFile:1.0.9]
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:216) [bundleFile:1.0.9]
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:301) [bundleFile:1.0.9]
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:225) [bundleFile:1.0.9]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687) [bundleFile:3.1.0]
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:276) [bundleFile:1.0.9]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:852) [bundleFile:9.4.20.v20190813]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:544) [bundleFile:9.4.20.v20190813]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceServletHandler.doHandle(HttpServiceServletHandler.java:71) [bundleFile:?]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [bundleFile:9.4.20.v20190813]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:536) [bundleFile:9.4.20.v20190813]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127) [bundleFile:9.4.20.v20190813]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235) [bundleFile:9.4.20.v20190813]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1581) [bundleFile:9.4.20.v20190813]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233) [bundleFile:9.4.20.v20190813]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1307) [bundleFile:9.4.20.v20190813]
+	at org.ops4j.pax.web.service.jetty.internal.HttpServiceContext.doHandle(HttpServiceContext.java:293) [bundleFile:?]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188) [bundleFile:9.4.20.v20190813]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:482) [bundleFile:9.4.20.v20190813]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1549) [bundleFile:9.4.20.v20190813]
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186) [bundleFile:9.4.20.v20190813]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1204) [bundleFile:9.4.20.v20190813]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [bundleFile:9.4.20.v20190813]
+	at org.ops4j.pax.web.service.jetty.internal.JettyServerHandlerCollection.handle(JettyServerHandlerCollection.java:80) [bundleFile:?]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127) [bundleFile:9.4.20.v20190813]
+	at org.eclipse.jetty.server.Server.handle(Server.java:494) [bundleFile:9.4.20.v20190813]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:374) [bundleFile:9.4.20.v20190813]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:268) [bundleFile:9.4.20.v20190813]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311) [bundleFile:9.4.20.v20190813]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103) [bundleFile:9.4.20.v20190813]
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117) [bundleFile:9.4.20.v20190813]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336) [bundleFile:9.4.20.v20190813]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313) [bundleFile:9.4.20.v20190813]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171) [bundleFile:9.4.20.v20190813]
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129) [bundleFile:9.4.20.v20190813]
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:367) [bundleFile:9.4.20.v20190813]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:782) [bundleFile:9.4.20.v20190813]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:918) [bundleFile:9.4.20.v20190813]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: org.eclipse.jetty.io.EofException: Closed
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:492) ~[bundleFile:9.4.20.v20190813]
+	at org.apache.cxf.io.AbstractWrappedOutputStream.write(AbstractWrappedOutputStream.java:51) ~[bundleFile:1.0.9]
+	at org.apache.cxf.io.AbstractWrappedOutputStream.write(AbstractWrappedOutputStream.java:60) ~[bundleFile:1.0.9]
+	at org.openhab.core.io.rest.core.internal.GsonMessageBodyWriter.writeTo(GsonMessageBodyWriter.java:84) ~[?:?]
+	at org.openhab.core.io.rest.core.internal.MediaTypeExtension.writeTo(MediaTypeExtension.java:84) ~[?:?]
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.writeMessageBody(JAXRSUtils.java:1451) ~[bundleFile:1.0.9]
+	at org.apache.cxf.jaxrs.interceptor.JAXRSOutInterceptor.serializeMessage(JAXRSOutInterceptor.java:246) ~[bundleFile:1.0.9]
+	... 50 more
+2020-12-25 07:10:24.676 [WARN ] [su.litvak.chromecast.api.v2.Channel ] - Error while reading, caused by su.litvak.chromecast.api.v2.ChromeCastException: Remote socket closed
+2020-12-25 07:10:24.683 [WARN ] [su.litvak.chromecast.api.v2.Channel ] -  <--  null payload in message 
+2020-12-25 08:55:10.482 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 08:55:18.948 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 09:12:40.596 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 09:15:01.525 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 09:17:30.782 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 09:17:33.436 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 09:17:36.394 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 09:17:39.376 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 09:17:42.363 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 09:18:08.176 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 09:18:22.068 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 09:21:06.341 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 09:21:10.020 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 09:21:57.761 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 09:28:45.599 [WARN ] [ore.io.rest.auth.internal.AuthFilter] - Unauthorized API request: Error while processing JWT token
+2020-12-25 09:29:12.692 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 09:30:11.086 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localStationName
+2020-12-25 09:30:11.091 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Iconid
+2020-12-25 09:30:11.094 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist:  Current_Iconid
+2020-12-25 09:30:11.097 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Condition
+2020-12-25 09:30:11.100 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 09:30:11.102 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 09:30:11.105 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 09:30:11.108 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Temperature
+2020-12-25 09:30:11.111 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Windspeed
+2020-12-25 09:30:11.113 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours02_Iconid
+2020-12-25 09:30:11.116 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours02_Temperature
+2020-12-25 09:30:11.119 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours02_Windspeed
+2020-12-25 09:30:11.122 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours03_Iconid
+2020-12-25 09:30:11.124 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours03_Temperature
+2020-12-25 09:30:11.127 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours03_Windspeed
+2020-12-25 09:30:11.130 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours04_Iconid
+2020-12-25 09:30:11.138 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours04_Temperature
+2020-12-25 09:30:11.141 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours04_Windspeed
+2020-12-25 09:30:11.144 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours05_Iconid
+2020-12-25 09:30:11.147 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours05_Temperature
+2020-12-25 09:30:11.150 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours05_Windspeed
+2020-12-25 09:30:11.153 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours06_Iconid
+2020-12-25 09:30:11.156 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours06_Temperature
+2020-12-25 09:30:11.159 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours06_Windspeed
+2020-12-25 09:30:11.162 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours07_Iconid
+2020-12-25 09:30:11.165 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours07_Temperature
+2020-12-25 09:30:11.168 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours07_Windspeed
+2020-12-25 09:30:11.171 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours08_Iconid
+2020-12-25 09:30:11.174 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours08_Temperature
+2020-12-25 09:30:11.176 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours08_Windspeed
+2020-12-25 09:30:11.178 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours09_Iconid
+2020-12-25 09:30:11.181 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours09_Temperature
+2020-12-25 09:30:11.184 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours09_Windspeed
+2020-12-25 09:30:11.187 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours10_Iconid
+2020-12-25 09:30:11.189 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours10_Temperature
+2020-12-25 09:30:11.192 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours10_Windspeed
+2020-12-25 09:30:11.196 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours11_Iconid
+2020-12-25 09:30:11.199 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours11_Temperature
+2020-12-25 09:30:11.203 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours11_Windspeed
+2020-12-25 09:30:11.206 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours12_Iconid
+2020-12-25 09:30:11.209 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours12_Temperature
+2020-12-25 09:30:11.213 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours12_Windspeed
+2020-12-25 09:33:26.310 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 09:34:16.626 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 09:48:08.549 [INFO ] [g.discovery.internal.PersistentInbox] - Added new thing 'remoteopenhab:server:fd3f_a1e0_d5c8_0_7f48_ebe9_615_442e' to inbox.
+2020-12-25 09:48:08.595 [INFO ] [g.discovery.internal.PersistentInbox] - Added new thing 'remoteopenhab:server:fd3f_a1e0_d5c8_0_715d_c3d5_7d55_1357' to inbox.
+2020-12-25 09:48:08.623 [INFO ] [g.discovery.internal.PersistentInbox] - Added new thing 'remoteopenhab:server:2a02_1810_3d3c_1cf0_cb7d_5b8d_2e0b_9fa2' to inbox.
+2020-12-25 09:48:08.711 [INFO ] [g.discovery.internal.PersistentInbox] - Added new thing 'remoteopenhab:server:2a02_1810_3d3c_1cf0_715d_c3d5_7d55_1357' to inbox.
+2020-12-25 09:48:08.725 [INFO ] [g.discovery.internal.PersistentInbox] - Added new thing 'remoteopenhab:server:192_168_3_174' to inbox.
+2020-12-25 10:29:39.053 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localStationName
+2020-12-25 10:29:39.065 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Iconid
+2020-12-25 10:29:39.069 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist:  Current_Iconid
+2020-12-25 10:29:39.073 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Condition
+2020-12-25 10:29:39.076 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 10:29:39.080 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 10:29:39.083 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 10:29:58.957 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localStationName
+2020-12-25 10:29:58.968 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Iconid
+2020-12-25 10:29:58.971 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist:  Current_Iconid
+2020-12-25 10:29:58.974 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Condition
+2020-12-25 10:29:58.977 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 10:29:58.979 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 10:29:58.982 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 10:30:06.847 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localStationName
+2020-12-25 10:30:06.856 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Iconid
+2020-12-25 10:30:06.858 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist:  Current_Iconid
+2020-12-25 10:30:06.861 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Condition
+2020-12-25 10:30:06.863 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 10:30:06.865 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 10:30:06.867 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 10:30:09.685 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localStationName
+2020-12-25 10:30:09.687 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Iconid
+2020-12-25 10:30:09.689 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist:  Current_Iconid
+2020-12-25 10:30:09.691 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Condition
+2020-12-25 10:30:09.693 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 10:30:09.695 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 10:30:09.697 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 10:30:15.437 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localStationName
+2020-12-25 10:30:15.450 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Iconid
+2020-12-25 10:30:15.454 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist:  Current_Iconid
+2020-12-25 10:30:15.458 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Condition
+2020-12-25 10:30:15.462 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 10:30:15.465 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 10:30:15.469 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 10:30:34.087 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localStationName
+2020-12-25 10:30:34.095 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Iconid
+2020-12-25 10:30:34.098 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist:  Current_Iconid
+2020-12-25 10:30:34.101 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Condition
+2020-12-25 10:30:34.103 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 10:30:34.105 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 10:30:34.108 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 10:32:32.490 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localStationName
+2020-12-25 10:32:32.500 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Iconid
+2020-12-25 10:32:32.503 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist:  Current_Iconid
+2020-12-25 10:32:32.506 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Condition
+2020-12-25 10:32:32.509 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 10:32:32.512 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 10:32:32.515 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 10:32:48.946 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Iconid
+2020-12-25 10:32:48.957 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist:  Current_Iconid
+2020-12-25 10:32:48.960 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Condition
+2020-12-25 10:32:48.964 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 10:32:48.967 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 10:32:48.970 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 10:34:47.006 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Iconid
+2020-12-25 10:34:47.020 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist:  Current_Iconid
+2020-12-25 10:34:47.025 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Condition
+2020-12-25 10:34:47.028 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 10:34:47.033 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 10:34:47.037 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 10:34:47.042 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 10:35:51.171 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 10:35:51.178 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Iconid
+2020-12-25 10:35:51.182 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist:  Current_Iconid
+2020-12-25 10:35:51.185 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Condition
+2020-12-25 10:35:51.188 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 10:35:51.193 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 10:35:51.197 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 10:36:07.017 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 10:36:07.025 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Iconid
+2020-12-25 10:36:07.028 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist:  Current_Iconid
+2020-12-25 10:36:07.030 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Condition
+2020-12-25 10:36:07.033 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 10:36:07.036 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 10:36:07.039 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 10:36:18.163 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 10:36:32.498 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 10:36:32.509 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Iconid
+2020-12-25 10:36:32.512 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist:  Current_Iconid
+2020-12-25 10:36:32.515 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Condition
+2020-12-25 10:36:32.519 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 10:36:32.522 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 10:36:32.525 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 10:36:49.653 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 10:36:49.669 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Iconid
+2020-12-25 10:36:49.673 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist:  Current_Iconid
+2020-12-25 10:36:49.677 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Condition
+2020-12-25 10:36:49.681 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 10:36:49.694 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 10:36:49.697 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 10:37:02.258 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Iconid
+2020-12-25 10:37:02.263 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist:  Current_Iconid
+2020-12-25 10:37:02.268 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Condition
+2020-12-25 10:37:02.272 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 10:37:02.276 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 10:37:02.281 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 10:37:25.028 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Iconid
+2020-12-25 10:37:25.038 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist:  Current_Iconid
+2020-12-25 10:37:25.041 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Condition
+2020-12-25 10:37:25.044 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 10:37:25.047 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 10:37:25.049 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 10:37:29.491 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Iconid
+2020-12-25 10:37:29.507 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist:  Current_Iconid
+2020-12-25 10:37:29.510 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Condition
+2020-12-25 10:37:29.513 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 10:37:29.516 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 10:37:29.519 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 10:38:05.449 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Iconid
+2020-12-25 10:38:05.457 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist:  Current_Iconid
+2020-12-25 10:38:05.461 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Condition
+2020-12-25 10:38:05.465 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 10:38:05.468 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 10:38:05.473 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 10:54:55.609 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Iconid
+2020-12-25 10:54:55.617 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist:  Current_Iconid
+2020-12-25 10:54:55.620 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Condition
+2020-12-25 10:54:55.624 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 10:54:55.627 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 10:54:55.631 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 10:54:58.182 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Iconid
+2020-12-25 10:54:58.186 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist:  Current_Iconid
+2020-12-25 10:54:58.189 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Condition
+2020-12-25 10:54:58.193 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 10:54:58.196 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 10:54:58.200 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 10:55:04.231 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Iconid
+2020-12-25 10:55:04.239 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist:  Current_Iconid
+2020-12-25 10:55:04.241 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Condition
+2020-12-25 10:55:04.243 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 10:55:04.245 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 10:55:04.247 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 10:55:36.900 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 10:55:36.911 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Iconid
+2020-12-25 10:55:36.914 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist:  Current_Iconid
+2020-12-25 10:55:36.917 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Condition
+2020-12-25 10:55:36.920 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 10:55:36.924 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 10:55:36.927 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 10:56:06.385 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Iconid
+2020-12-25 10:56:06.525 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist:  Current_Iconid
+2020-12-25 10:56:06.528 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Condition
+2020-12-25 10:56:06.531 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 10:56:06.534 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 10:56:06.536 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 10:56:14.037 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Iconid
+2020-12-25 10:56:14.041 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist:  Current_Iconid
+2020-12-25 10:56:14.045 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Condition
+2020-12-25 10:56:14.048 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 10:56:14.051 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 10:56:14.055 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 10:56:18.696 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Iconid
+2020-12-25 10:56:18.699 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist:  Current_Iconid
+2020-12-25 10:56:18.702 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Condition
+2020-12-25 10:56:18.705 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 10:56:18.708 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 10:56:18.711 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 10:56:18.714 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 10:56:24.613 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Iconid
+2020-12-25 10:56:24.616 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist:  Current_Iconid
+2020-12-25 10:56:24.625 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Condition
+2020-12-25 10:56:24.629 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 10:56:24.633 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 10:56:24.637 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 10:56:24.640 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 10:56:48.132 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 10:56:48.143 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Iconid
+2020-12-25 10:56:48.147 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist:  Current_Iconid
+2020-12-25 10:56:48.150 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Condition
+2020-12-25 10:56:48.153 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 10:56:48.157 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 10:56:48.160 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 10:56:53.153 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 10:56:53.162 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Iconid
+2020-12-25 10:56:53.165 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist:  Current_Iconid
+2020-12-25 10:56:53.168 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Condition
+2020-12-25 10:56:53.170 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 10:56:53.173 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 10:56:53.176 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 10:57:03.307 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 10:57:03.311 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Iconid
+2020-12-25 10:57:03.314 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist:  Current_Iconid
+2020-12-25 10:57:03.317 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Condition
+2020-12-25 10:57:03.320 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 10:57:03.324 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 10:57:03.327 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 10:57:09.709 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Iconid
+2020-12-25 10:57:09.713 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist:  Current_Iconid
+2020-12-25 10:57:09.716 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Condition
+2020-12-25 10:57:09.718 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 10:57:09.721 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 10:57:09.724 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 10:57:09.726 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 10:57:42.622 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 10:57:42.633 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Iconid
+2020-12-25 10:57:42.636 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist:  Current_Iconid
+2020-12-25 10:57:42.639 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Condition
+2020-12-25 10:57:42.642 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 10:57:42.645 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 10:57:42.648 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 10:58:16.926 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Iconid
+2020-12-25 10:58:16.937 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist:  Current_Iconid
+2020-12-25 10:58:16.941 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Condition
+2020-12-25 10:58:16.945 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 10:58:16.949 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 10:58:16.952 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 10:58:16.956 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 10:58:27.775 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 10:58:27.779 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Iconid
+2020-12-25 10:58:27.782 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist:  Current_Iconid
+2020-12-25 10:58:27.786 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Condition
+2020-12-25 10:58:27.789 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 10:58:27.792 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 10:58:27.795 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 11:03:57.913 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 11:03:57.921 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 11:03:57.923 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 11:03:57.925 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 11:04:09.452 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 11:04:09.456 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 11:04:09.459 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 11:04:09.464 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 11:04:38.754 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 11:04:38.764 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 11:04:38.767 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 11:04:38.771 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 11:26:53.529 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 11:26:53.537 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 11:26:53.540 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 11:26:53.546 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 11:28:33.343 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 11:28:33.364 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 11:28:33.367 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 11:28:33.372 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 11:28:43.131 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 11:28:43.140 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 11:28:43.143 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 11:28:43.149 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 11:29:45.774 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 11:29:45.789 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 11:29:45.792 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 11:29:45.797 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 11:29:54.537 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 11:29:54.541 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 11:29:54.544 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 11:29:54.550 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 11:30:00.892 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 11:30:00.896 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 11:30:00.899 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 11:30:00.904 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 11:30:03.225 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 11:30:03.228 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 11:30:03.231 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 11:30:03.237 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 11:30:03.664 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 11:30:03.667 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 11:30:03.670 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 11:30:03.675 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 11:30:06.676 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 11:30:06.684 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 11:30:06.686 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 11:30:06.690 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 11:30:21.193 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 11:30:21.197 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 11:30:21.201 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 11:30:21.206 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 11:30:21.560 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 11:30:21.562 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 11:30:21.565 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 11:30:21.569 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 11:30:26.961 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 11:30:26.964 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 11:30:26.967 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 11:30:26.973 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 12:44:51.861 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 12:44:51.870 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 12:44:51.873 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 12:44:51.879 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 12:49:10.605 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 12:49:10.620 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 12:49:10.622 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 12:49:10.632 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 12:49:10.965 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 12:49:10.967 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 12:49:10.970 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 12:49:10.976 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 12:49:11.832 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 12:49:11.835 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 12:49:11.838 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 12:49:11.843 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 12:49:23.660 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 12:49:23.675 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 12:49:23.679 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 12:49:23.687 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 12:49:25.184 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 12:49:25.188 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 12:49:25.192 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 12:49:25.200 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 12:49:34.866 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 12:49:34.869 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 12:49:34.928 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 12:49:34.934 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 13:09:12.433 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 13:09:12.450 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 13:09:12.454 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 13:09:12.458 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 13:09:21.656 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 13:09:21.667 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 13:09:21.670 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 13:09:21.673 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 13:10:24.577 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 13:10:24.585 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 13:10:24.587 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 13:10:24.590 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 13:12:16.313 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 13:12:16.327 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 13:12:16.330 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 13:12:16.332 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 13:12:43.414 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 13:12:43.426 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 13:12:43.429 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 13:12:43.431 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 13:12:43.434 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Iconid
+2020-12-25 13:12:43.437 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist:  Current_Iconid
+2020-12-25 13:18:32.541 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 13:18:32.555 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 13:18:32.559 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 13:18:32.563 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 13:18:49.622 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 13:18:49.633 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 13:18:49.636 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 13:18:49.639 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 13:29:45.250 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 13:29:45.263 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 13:29:45.266 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 13:29:45.271 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 13:32:31.689 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 13:32:31.703 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 13:32:31.706 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 13:32:31.710 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 13:35:17.156 [INFO ] [rnal.service.RemoteControllerService] - Using Legacy interface
+2020-12-25 13:35:53.691 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 13:35:53.705 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 13:35:53.707 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 13:35:53.712 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 13:43:25.646 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 13:43:25.658 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 13:43:25.663 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 13:43:25.671 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 13:45:22.618 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 13:45:22.634 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 13:45:22.638 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 13:45:22.645 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 14:56:48.947 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 14:56:48.963 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 14:56:48.967 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 14:56:48.975 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 14:56:49.789 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 14:56:49.794 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 14:56:49.798 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 14:56:49.808 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 14:56:50.293 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 14:56:50.296 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 14:56:50.299 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 14:56:50.306 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 14:56:56.736 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 14:56:56.739 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 14:56:56.742 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 14:56:56.748 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 14:57:57.809 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 14:57:57.825 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 14:57:57.828 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 14:57:57.830 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 15:39:59.367 [WARN ] [calimero.link.192.168.3.100:3671    ] - negative confirmation of 1.1.11: 2e00bd60116c110b014300
+2020-12-25 15:54:01.602 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 15:54:01.616 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 15:54:01.618 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 15:54:01.622 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 15:54:24.478 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 15:54:24.490 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 15:54:24.493 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 15:54:24.495 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 15:55:57.516 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 15:55:57.526 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 15:55:57.528 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 15:55:57.531 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 15:56:21.419 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 15:56:21.432 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 15:56:21.434 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 15:56:21.439 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 15:56:35.892 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 15:56:35.901 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 15:56:35.903 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 15:56:35.905 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 16:45:03.111 [WARN ] [ore.io.rest.auth.internal.AuthFilter] - Unauthorized API request: Error while processing JWT token
+2020-12-25 16:56:50.994 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 16:56:51.012 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 16:56:51.015 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 16:56:51.018 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 16:56:58.758 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 16:56:58.761 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 16:56:58.764 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 16:56:58.768 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 16:57:14.233 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 16:57:14.238 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 16:57:14.242 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 16:57:14.246 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 16:58:59.542 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 16:58:59.551 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 16:58:59.555 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 16:58:59.557 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 17:01:06.218 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 17:01:06.235 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 17:01:06.238 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 17:01:06.242 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 17:06:16.830 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 17:06:16.847 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 17:06:16.851 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 17:06:16.854 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 17:06:29.954 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 17:06:29.965 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 17:06:29.968 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 17:06:29.973 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 18:19:43.334 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 18:19:43.346 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 18:19:43.350 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 18:19:43.358 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 18:35:02.647 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 18:35:02.674 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 18:35:02.676 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 18:35:02.682 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 18:36:33.613 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 18:36:33.621 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 18:36:33.623 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 18:36:33.626 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 19:07:40.994 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 19:07:41.005 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 19:07:41.007 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 19:07:41.010 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 19:07:57.443 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 19:07:57.459 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 19:07:57.462 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 19:07:57.468 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 19:20:18.093 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 19:20:18.107 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 19:20:18.110 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 19:20:18.115 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 20:03:20.567 [WARN ] [su.litvak.chromecast.api.v2.Channel ] - Error while reading, caused by su.litvak.chromecast.api.v2.ChromeCastException: Remote socket closed
+2020-12-25 20:03:20.571 [WARN ] [su.litvak.chromecast.api.v2.Channel ] -  <--  null payload in message 
+2020-12-25 21:30:10.428 [WARN ] [ore.io.rest.auth.internal.AuthFilter] - Unauthorized API request: Error while processing JWT token
+2020-12-25 22:12:57.854 [WARN ] [ore.io.rest.auth.internal.AuthFilter] - Unauthorized API request: Error while processing JWT token
+2020-12-25 22:17:07.776 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 22:17:07.798 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 22:17:07.802 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 22:17:07.808 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 22:22:29.850 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 22:22:29.876 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 22:22:29.879 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 22:22:29.892 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 22:24:43.072 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 22:24:43.081 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-25 22:24:43.083 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 22:24:43.085 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 22:24:48.578 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 22:24:48.583 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 22:24:48.587 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 22:25:08.746 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 22:25:08.777 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 22:25:08.781 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 22:25:32.163 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 22:25:32.192 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-25 22:25:32.196 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-25 22:26:26.692 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 22:29:14.175 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Mqttkmiantwerpen_TempMqtt
+2020-12-25 22:29:26.452 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Mqttkmiantwerpen_TempMqtt
+2020-12-25 22:29:26.475 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 22:29:31.008 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Mqttkmiantwerpen_TempMqtt
+2020-12-25 22:29:31.014 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 22:29:35.012 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Mqttkmiantwerpen_TempMqtt
+2020-12-25 22:29:35.017 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 22:29:48.825 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Mqttkmiantwerpen_TempMqtt
+2020-12-25 22:29:48.847 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 22:30:20.627 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 22:30:28.308 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 22:30:33.547 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 22:30:38.392 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 22:30:47.036 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 22:30:55.976 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 22:31:33.131 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 22:31:43.447 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 22:31:57.318 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 22:32:15.197 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 22:32:25.091 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 22:32:36.068 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 22:32:43.882 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 22:32:57.824 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 22:33:07.734 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 22:33:21.459 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 22:33:31.460 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 22:33:42.760 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 22:33:50.707 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 22:33:58.663 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 22:34:06.028 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 22:34:11.494 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 22:34:19.032 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 22:34:25.865 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 22:34:32.786 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 22:34:40.095 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 22:34:47.755 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 22:35:06.873 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 22:35:40.973 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 22:35:46.916 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 22:36:35.888 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 22:37:35.722 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 22:38:41.878 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 22:38:47.344 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-25 22:53:13.092 [WARN ] [su.litvak.chromecast.api.v2.Channel ] - Error while reading, caused by su.litvak.chromecast.api.v2.ChromeCastException: Remote socket closed
+2020-12-25 22:53:13.106 [WARN ] [su.litvak.chromecast.api.v2.Channel ] -  <--  null payload in message 
+2020-12-26 00:09:08.692 [INFO ] [rnal.service.RemoteControllerService] - Using Legacy interface
+2020-12-26 01:53:56.622 [WARN ] [calimero.link.192.168.3.100:3671    ] - negative confirmation of 1.1.11: 2e00bd60116c110b014300
+2020-12-26 03:57:24.778 [WARN ] [su.litvak.chromecast.api.v2.Channel ] - Error while reading, caused by javax.net.ssl.SSLException: Connection reset
+2020-12-26 03:57:24.803 [WARN ] [su.litvak.chromecast.api.v2.Channel ] -  <--  null payload in message 
+2020-12-26 07:09:56.773 [WARN ] [g.mqtt.handler.AbstractBrokerHandler] - Tried to unsubscribe org.openhab.binding.mqtt.homie.internal.discovery.Homie300Discovery@e101a7 from  discovery topic homeassistant/# on broker mqtt:broker:2fe0b80954 but topic not registered for listener. Check discovery logic!
+2020-12-26 07:09:56.901 [WARN ] [g.mqtt.handler.AbstractBrokerHandler] - Tried to unsubscribe org.openhab.binding.mqtt.homeassistant.internal.discovery.HomeAssistantDiscovery@f8afc4 from  discovery topic +/+/$homie on broker mqtt:broker:2fe0b80954 but topic not registered at all. Check discovery logic!
+2020-12-26 07:09:56.908 [WARN ] [g.mqtt.handler.AbstractBrokerHandler] - Tried to unsubscribe org.openhab.binding.mqtt.homeassistant.internal.discovery.HomeAssistantDiscovery@f8afc4 from  discovery topic homeassistant/# on broker mqtt:broker:2fe0b80954 but topic not registered at all. Check discovery logic!
+2020-12-26 07:09:56.911 [WARN ] [g.mqtt.handler.AbstractBrokerHandler] - Tried to unsubscribe org.openhab.binding.mqtt.homeassistant.internal.discovery.HomeAssistantDiscovery@f8afc4 from  discovery topic +/+/$homie on broker mqtt:broker:2fe0b80954 but topic not registered at all. Check discovery logic!
+2020-12-26 07:09:58.257 [INFO ] [ab.ui.habpanel.internal.HABPanelTile] - Stopped HABPanel
+2020-12-26 07:10:00.229 [INFO ] [basic.internal.servlet.WebAppServlet] - Stopped Basic UI
+2020-12-26 07:10:00.466 [INFO ] [io.openhabcloud.internal.CloudClient] - Shutting down openHAB Cloud service connection
+2020-12-26 07:10:06.003 [WARN ] [.core.thing.binding.BaseThingHandler] - Handler DeviceThingHandler tried updating the thing status although the handler was already disposed.
+2020-12-26 07:10:08.289 [INFO ] [org.openhab.ui.internal.UIService   ] - Stopped UI

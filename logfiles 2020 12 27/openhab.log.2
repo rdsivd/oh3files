@@ -1,0 +1,15 @@
+2020-12-24 06:11:07.885 [WARN ] [raf.features.internal.osgi.Activator] - Error starting activator
+java.lang.IllegalStateException: BundleContext is no longer valid
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.checkValid(BundleContextImpl.java:989) ~[org.eclipse.osgi-3.12.100.jar:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.getDataFile(BundleContextImpl.java:694) ~[org.eclipse.osgi-3.12.100.jar:?]
+	at org.apache.karaf.features.internal.osgi.Activator$1.getInputStream(Activator.java:251) ~[bundleFile:?]
+	at org.apache.karaf.features.internal.service.StateStorage.load(StateStorage.java:42) ~[bundleFile:?]
+	at org.apache.karaf.features.internal.service.FeaturesServiceImpl.loadState(FeaturesServiceImpl.java:221) ~[bundleFile:?]
+	at org.apache.karaf.features.internal.service.FeaturesServiceImpl.<init>(FeaturesServiceImpl.java:160) ~[bundleFile:?]
+	at org.apache.karaf.features.internal.osgi.Activator.doStart(Activator.java:166) ~[bundleFile:?]
+	at org.apache.karaf.util.tracker.BaseActivator.run(BaseActivator.java:312) [bundleFile:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]

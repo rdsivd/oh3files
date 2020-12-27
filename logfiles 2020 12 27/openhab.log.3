@@ -1,0 +1,331 @@
+2020-12-24 06:11:52.756 [WARN ] [org.apache.felix.fileinstall        ] - Error while starting bundle: file:/usr/share/openhab/addons/org.openhab.binding.broadlink-2.5.9.jar
+org.osgi.framework.BundleException: Could not resolve module: org.openhab.binding.broadlink [22]
+  Unresolved requirement: Import-Package: org.eclipse.smarthome.config.core
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444) ~[org.eclipse.osgi-3.12.100.jar:?]
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.start(EquinoxBundle.java:383) ~[org.eclipse.osgi-3.12.100.jar:?]
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundle(DirectoryWatcher.java:1260) [bundleFile:3.6.4]
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundles(DirectoryWatcher.java:1233) [bundleFile:3.6.4]
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:520) [bundleFile:3.6.4]
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:365) [bundleFile:3.6.4]
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.run(DirectoryWatcher.java:316) [bundleFile:3.6.4]
+2020-12-24 06:12:59.290 [INFO ] [org.openhab.ui.internal.UIService   ] - Started UI on port 8080
+2020-12-24 06:13:22.743 [INFO ] [.core.internal.i18n.I18nProviderImpl] - Time zone set to 'Europe/Brussels'.
+2020-12-24 06:13:22.759 [INFO ] [.core.internal.i18n.I18nProviderImpl] - Location set to '51.180536783336244,4.387538731098176'.
+2020-12-24 06:13:22.766 [INFO ] [.core.internal.i18n.I18nProviderImpl] - Locale set to 'nl_BE'.
+2020-12-24 06:13:37.240 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_25.things'
+2020-12-24 06:13:38.717 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_18.things'
+2020-12-24 06:13:38.833 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_50.things'
+2020-12-24 06:13:39.037 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_5.things'
+2020-12-24 06:13:39.106 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_0_tunnel.things'
+2020-12-24 06:13:39.179 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_8.things'
+2020-12-24 06:13:39.317 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_7.things'
+2020-12-24 06:13:39.416 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_16.things'
+2020-12-24 06:13:39.539 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_11.things'
+2020-12-24 06:13:39.609 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_14.things'
+2020-12-24 06:13:39.666 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_ntp.things'
+2020-12-24 06:13:39.722 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_15.things'
+2020-12-24 06:13:39.804 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_12.things'
+2020-12-24 06:13:39.874 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_19.things'
+2020-12-24 06:13:39.926 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_devices.things'
+2020-12-24 06:13:40.046 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_3.things'
+2020-12-24 06:13:40.102 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_2.things'
+2020-12-24 06:13:40.163 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_ntp.items'
+2020-12-24 06:13:40.383 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_3.items'
+2020-12-24 06:13:40.431 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_devices.items'
+2020-12-24 06:13:40.562 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_8.items'
+2020-12-24 06:13:40.655 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_16.items'
+2020-12-24 06:13:40.711 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_18.items'
+2020-12-24 06:13:40.795 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_5.items'
+2020-12-24 06:13:40.828 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_14.items'
+2020-12-24 06:13:40.872 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_19.items'
+2020-12-24 06:13:40.919 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_12.items'
+2020-12-24 06:13:40.964 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_50.items'
+2020-12-24 06:13:41.119 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_7.items'
+2020-12-24 06:13:41.180 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_25.items'
+2020-12-24 06:13:41.219 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_15.items'
+2020-12-24 06:13:41.289 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_11.items'
+2020-12-24 06:13:41.331 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_2.items'
+2020-12-24 06:13:46.448 [INFO ] [.core.model.lsp.internal.ModelServer] - Started Language Server Protocol (LSP) service on port 5007
+2020-12-24 06:13:49.710 [INFO ] [e.automation.internal.RuleEngineImpl] - Rule engine started.
+2020-12-24 06:18:13.155 [WARN ] [core.thing.internal.ThingManagerImpl] - Initializing handler for thing 'mqtt:broker:2fe0b80954' takes more than 5000ms.
+2020-12-24 06:18:16.036 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to '192.168.3.103' with clientid b04d44ba-7e31-4aeb-8a6b-7211b2ab60f8
+2020-12-24 06:18:16.398 [INFO ] [rnal.service.RemoteControllerService] - Using None interface
+2020-12-24 06:18:19.078 [ERROR] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance
+2020-12-24 06:18:20.637 [INFO ] [rt.modbus.internal.ModbusManagerImpl] - Modbus manager activated
+2020-12-24 06:18:21.790 [WARN ] [luxdb.internal.InfluxDBConfiguration] - InfluxDB configuration isn't valid. Addon won't work:  No credentials
+2020-12-24 06:18:21.797 [WARN ] [.influxdb.InfluxDBPersistenceService] - Some configuration properties are not valid {service.config.factory=false, service.pid=org.openhab.influxdb, service.config.category=persistence, service.config.label=InfluxDB Persistence Service, component.name=org.openhab.persistence.influxdb.InfluxDBPersistenceService, component.id=322, service.config.description.uri=persistence:influxdb}
+2020-12-24 06:18:21.805 [ERROR] [.influxdb.InfluxDBPersistenceService] - Cannot load configuration, persistence service wont work
+2020-12-24 06:18:41.813 [WARN ] [rg.openhab.core.io.net.exec.ExecUtil] - Failed to execute commandLine '[arping, --help]'
+2020-12-24 06:18:42.061 [WARN ] [rg.openhab.core.io.net.exec.ExecUtil] - Failed to execute commandLine '[arping, --help]'
+2020-12-24 06:18:44.636 [INFO ] [ternal.dhcp.DHCPPacketListenerServer] - DHCP request packet listener online
+2020-12-24 06:18:45.292 [WARN ] [hi.software.os.linux.LinuxFileSystem] - Failed to get information to use statvfs. path: /media/pi/rootfs, Error code: 13
+2020-12-24 06:18:45.327 [WARN ] [hi.software.os.linux.LinuxFileSystem] - Failed to get information to use statvfs. path: /media/pi/boot, Error code: 13
+2020-12-24 06:18:52.821 [WARN ] [core.thing.internal.ThingManagerImpl] - Initializing handler for thing 'chromecast:chromecast:c1011d37f859ef88773fb0b8b96c9417' takes more than 5000ms.
+2020-12-24 06:18:56.500 [INFO ] [ab.ui.habpanel.internal.HABPanelTile] - Started HABPanel at /habpanel
+2020-12-24 06:21:14.389 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-24 06:21:18.725 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-24 06:21:18.729 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localStationName
+2020-12-24 06:21:18.733 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Iconid
+2020-12-24 06:21:18.738 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist:  Current_Iconid
+2020-12-24 06:21:18.742 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Condition
+2020-12-24 06:21:18.746 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-24 06:21:18.749 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-24 06:21:18.753 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-24 06:21:18.816 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-24 06:21:18.819 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localStationName
+2020-12-24 06:21:18.822 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Iconid
+2020-12-24 06:21:18.825 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist:  Current_Iconid
+2020-12-24 06:21:18.827 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Condition
+2020-12-24 06:21:18.830 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-24 06:21:18.833 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-24 06:21:18.836 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-24 06:21:18.838 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Temperature
+2020-12-24 06:21:18.840 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Windspeed
+2020-12-24 06:21:18.843 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours02_Iconid
+2020-12-24 06:21:18.845 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours02_Temperature
+2020-12-24 06:21:18.848 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours02_Windspeed
+2020-12-24 06:21:18.851 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours03_Iconid
+2020-12-24 06:21:18.853 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours03_Temperature
+2020-12-24 06:21:18.855 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours03_Windspeed
+2020-12-24 06:21:18.857 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours04_Iconid
+2020-12-24 06:21:18.859 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours04_Temperature
+2020-12-24 06:21:18.861 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours04_Windspeed
+2020-12-24 06:21:18.863 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours05_Iconid
+2020-12-24 06:21:18.865 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours05_Temperature
+2020-12-24 06:21:18.869 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours05_Windspeed
+2020-12-24 06:21:18.873 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours06_Iconid
+2020-12-24 06:21:18.875 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours06_Temperature
+2020-12-24 06:21:18.878 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours06_Windspeed
+2020-12-24 06:21:18.880 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours07_Iconid
+2020-12-24 06:21:18.883 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours07_Temperature
+2020-12-24 06:21:18.885 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours07_Windspeed
+2020-12-24 06:21:18.888 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours08_Iconid
+2020-12-24 06:21:18.891 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours08_Temperature
+2020-12-24 06:21:18.893 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours08_Windspeed
+2020-12-24 06:21:18.896 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours09_Iconid
+2020-12-24 06:21:18.899 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours09_Temperature
+2020-12-24 06:21:18.902 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours09_Windspeed
+2020-12-24 06:21:18.905 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours10_Iconid
+2020-12-24 06:21:18.907 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours10_Temperature
+2020-12-24 06:21:18.910 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours10_Windspeed
+2020-12-24 06:21:18.913 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours11_Iconid
+2020-12-24 06:21:18.916 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours11_Temperature
+2020-12-24 06:21:18.919 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours11_Windspeed
+2020-12-24 06:21:18.921 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours12_Iconid
+2020-12-24 06:21:18.924 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours12_Temperature
+2020-12-24 06:21:18.926 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours12_Windspeed
+2020-12-24 06:21:32.666 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localStationName
+2020-12-24 06:21:32.669 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Iconid
+2020-12-24 06:21:32.672 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist:  Current_Iconid
+2020-12-24 06:21:32.674 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Condition
+2020-12-24 06:21:32.676 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-24 06:21:32.679 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-24 06:21:32.681 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-24 06:21:32.736 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localStationName
+2020-12-24 06:21:32.923 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Iconid
+2020-12-24 06:21:32.926 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist:  Current_Iconid
+2020-12-24 06:21:32.929 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Condition
+2020-12-24 06:21:32.932 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Temperature
+2020-12-24 06:21:32.935 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Apparenttemperature
+2020-12-24 06:21:32.937 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: localCurrent_Humidity
+2020-12-24 06:21:32.940 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Temperature
+2020-12-24 06:21:32.943 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: Current_Windspeed
+2020-12-24 06:21:32.945 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours02_Iconid
+2020-12-24 06:21:32.948 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours02_Temperature
+2020-12-24 06:21:32.950 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours02_Windspeed
+2020-12-24 06:21:32.953 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours03_Iconid
+2020-12-24 06:21:32.956 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours03_Temperature
+2020-12-24 06:21:32.959 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours03_Windspeed
+2020-12-24 06:21:32.961 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours04_Iconid
+2020-12-24 06:21:32.964 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours04_Temperature
+2020-12-24 06:21:32.966 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours04_Windspeed
+2020-12-24 06:21:32.969 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours05_Iconid
+2020-12-24 06:21:32.972 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours05_Temperature
+2020-12-24 06:21:32.975 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours05_Windspeed
+2020-12-24 06:21:32.978 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours06_Iconid
+2020-12-24 06:21:32.981 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours06_Temperature
+2020-12-24 06:21:32.983 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours06_Windspeed
+2020-12-24 06:21:32.986 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours07_Iconid
+2020-12-24 06:21:32.989 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours07_Temperature
+2020-12-24 06:21:32.991 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours07_Windspeed
+2020-12-24 06:21:32.994 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours08_Iconid
+2020-12-24 06:21:32.997 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours08_Temperature
+2020-12-24 06:21:33.000 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours08_Windspeed
+2020-12-24 06:21:33.002 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours09_Iconid
+2020-12-24 06:21:33.005 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours09_Temperature
+2020-12-24 06:21:33.008 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours09_Windspeed
+2020-12-24 06:21:33.010 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours10_Iconid
+2020-12-24 06:21:33.013 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours10_Temperature
+2020-12-24 06:21:33.015 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours10_Windspeed
+2020-12-24 06:21:33.018 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours11_Iconid
+2020-12-24 06:21:33.021 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours11_Temperature
+2020-12-24 06:21:33.023 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours11_Windspeed
+2020-12-24 06:21:33.026 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours12_Iconid
+2020-12-24 06:21:33.029 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours12_Temperature
+2020-12-24 06:21:33.032 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: ForecastHours12_Windspeed
+2020-12-24 08:22:57.623 [WARN ] [ore.io.rest.auth.internal.AuthFilter] - Unauthorized API request: Error while processing JWT token
+2020-12-24 09:13:58.138 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_2.items'
+2020-12-24 09:18:39.634 [WARN ] [th.bluez.internal.BlueZBridgeHandler] - Unknown exception
+java.lang.NullPointerException: null
+	at com.github.hypfvieh.bluetooth.wrapper.BluetoothAdapter.isPowered(BluetoothAdapter.java:100) ~[bundleFile:?]
+	at org.openhab.binding.bluetooth.bluez.internal.BlueZBridgeHandler.prepareAdapter(BlueZBridgeHandler.java:134) ~[bundleFile:?]
+	at org.openhab.binding.bluetooth.bluez.internal.BlueZBridgeHandler.initializeAndRefreshDevices(BlueZBridgeHandler.java:162) [bundleFile:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+2020-12-24 09:18:46.762 [WARN ] [g.mqtt.handler.AbstractBrokerHandler] - Tried to unsubscribe org.openhab.binding.mqtt.homie.internal.discovery.Homie300Discovery@15f907b from  discovery topic homeassistant/# on broker mqtt:broker:2fe0b80954 but topic not registered for listener. Check discovery logic!
+2020-12-24 09:18:46.912 [WARN ] [g.mqtt.handler.AbstractBrokerHandler] - Tried to unsubscribe org.openhab.binding.mqtt.homeassistant.internal.discovery.HomeAssistantDiscovery@7f321a from  discovery topic +/+/$homie on broker mqtt:broker:2fe0b80954 but topic not registered at all. Check discovery logic!
+2020-12-24 09:18:46.919 [WARN ] [g.mqtt.handler.AbstractBrokerHandler] - Tried to unsubscribe org.openhab.binding.mqtt.homeassistant.internal.discovery.HomeAssistantDiscovery@7f321a from  discovery topic homeassistant/# on broker mqtt:broker:2fe0b80954 but topic not registered at all. Check discovery logic!
+2020-12-24 09:18:46.924 [WARN ] [g.mqtt.handler.AbstractBrokerHandler] - Tried to unsubscribe org.openhab.binding.mqtt.homeassistant.internal.discovery.HomeAssistantDiscovery@7f321a from  discovery topic +/+/$homie on broker mqtt:broker:2fe0b80954 but topic not registered at all. Check discovery logic!
+2020-12-24 09:18:47.040 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to '192.168.3.103'. Next attempt in 60000ms
+2020-12-24 09:18:47.248 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to '192.168.3.103' with clientid b04d44ba-7e31-4aeb-8a6b-7211b2ab60f8
+2020-12-24 09:18:47.601 [INFO ] [ab.ui.habpanel.internal.HABPanelTile] - Stopped HABPanel
+2020-12-24 09:18:49.567 [INFO ] [basic.internal.servlet.WebAppServlet] - Stopped Basic UI
+2020-12-24 09:18:49.672 [WARN ] [th.bluez.internal.BlueZBridgeHandler] - Unknown exception
+java.lang.NullPointerException: null
+	at com.github.hypfvieh.bluetooth.wrapper.BluetoothAdapter.isPowered(BluetoothAdapter.java:100) ~[bundleFile:?]
+	at org.openhab.binding.bluetooth.bluez.internal.BlueZBridgeHandler.prepareAdapter(BlueZBridgeHandler.java:134) ~[bundleFile:?]
+	at org.openhab.binding.bluetooth.bluez.internal.BlueZBridgeHandler.initializeAndRefreshDevices(BlueZBridgeHandler.java:162) [bundleFile:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+2020-12-24 09:18:50.031 [INFO ] [io.openhabcloud.internal.CloudClient] - Shutting down openHAB Cloud service connection
+2020-12-24 09:18:54.151 [WARN ] [.core.thing.binding.BaseThingHandler] - Handler DeviceThingHandler tried updating the thing status although the handler was already disposed.
+2020-12-24 09:18:54.749 [ERROR] [nal.common.AbstractInvocationHandler] - An error occurred while calling method 'ThingHandler.dispose()' on 'org.openhab.binding.bluetooth.BeaconBluetoothHandler@19147e9': Refusing activation, D-Bus is shutting down.
+org.freedesktop.dbus.exceptions.DBusExecutionException: Refusing activation, D-Bus is shutting down.
+	at jdk.internal.reflect.GeneratedConstructorAccessor241.newInstance(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:490) ~[?:?]
+	at org.freedesktop.dbus.errors.Error.getException(Error.java:157) ~[?:?]
+	at org.freedesktop.dbus.errors.Error.throwException(Error.java:187) ~[?:?]
+	at org.freedesktop.dbus.RemoteInvocationHandler.executeRemoteMethod(RemoteInvocationHandler.java:164) ~[?:?]
+	at org.freedesktop.dbus.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:228) ~[?:?]
+	at com.sun.proxy.$Proxy379.Disconnect(Unknown Source) ~[?:?]
+	at com.github.hypfvieh.bluetooth.wrapper.BluetoothDevice.disconnect(BluetoothDevice.java:434) ~[?:?]
+	at org.openhab.binding.bluetooth.bluez.internal.BlueZBluetoothDevice.disconnect(BlueZBluetoothDevice.java:197) ~[?:?]
+	at org.openhab.binding.bluetooth.BeaconBluetoothHandler.dispose(BeaconBluetoothHandler.java:140) ~[?:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor81.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.openhab.core.internal.common.AbstractInvocationHandler.invokeDirect(AbstractInvocationHandler.java:154) [bundleFile:?]
+	at org.openhab.core.internal.common.Invocation.call(Invocation.java:52) [bundleFile:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+2020-12-24 09:18:54.820 [ERROR] [core.thing.internal.ThingManagerImpl] - Exception occurred while disposing handler of thing 'bluetooth:beacon:hci0:04bdbf5c7f02': Refusing activation, D-Bus is shutting down.
+org.freedesktop.dbus.exceptions.DBusExecutionException: Refusing activation, D-Bus is shutting down.
+	at jdk.internal.reflect.GeneratedConstructorAccessor241.newInstance(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:490) ~[?:?]
+	at org.freedesktop.dbus.errors.Error.getException(Error.java:157) ~[?:?]
+	at org.freedesktop.dbus.errors.Error.throwException(Error.java:187) ~[?:?]
+	at org.freedesktop.dbus.RemoteInvocationHandler.executeRemoteMethod(RemoteInvocationHandler.java:164) ~[?:?]
+	at org.freedesktop.dbus.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:228) ~[?:?]
+	at com.sun.proxy.$Proxy379.Disconnect(Unknown Source) ~[?:?]
+	at com.github.hypfvieh.bluetooth.wrapper.BluetoothDevice.disconnect(BluetoothDevice.java:434) ~[?:?]
+	at org.openhab.binding.bluetooth.bluez.internal.BlueZBluetoothDevice.disconnect(BlueZBluetoothDevice.java:197) ~[?:?]
+	at org.openhab.binding.bluetooth.BeaconBluetoothHandler.dispose(BeaconBluetoothHandler.java:140) ~[?:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor81.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.openhab.core.internal.common.AbstractInvocationHandler.invokeDirect(AbstractInvocationHandler.java:154) [bundleFile:?]
+	at org.openhab.core.internal.common.Invocation.call(Invocation.java:52) [bundleFile:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+2020-12-24 09:18:54.915 [ERROR] [nal.common.AbstractInvocationHandler] - An error occurred while calling method 'ThingHandler.dispose()' on 'org.openhab.binding.bluetooth.BeaconBluetoothHandler@9aef48': Refusing activation, D-Bus is shutting down.
+org.freedesktop.dbus.exceptions.DBusExecutionException: Refusing activation, D-Bus is shutting down.
+	at jdk.internal.reflect.GeneratedConstructorAccessor241.newInstance(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:490) ~[?:?]
+	at org.freedesktop.dbus.errors.Error.getException(Error.java:157) ~[?:?]
+	at org.freedesktop.dbus.errors.Error.throwException(Error.java:187) ~[?:?]
+	at org.freedesktop.dbus.RemoteInvocationHandler.executeRemoteMethod(RemoteInvocationHandler.java:164) ~[?:?]
+	at org.freedesktop.dbus.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:228) ~[?:?]
+	at com.sun.proxy.$Proxy379.Disconnect(Unknown Source) ~[?:?]
+	at com.github.hypfvieh.bluetooth.wrapper.BluetoothDevice.disconnect(BluetoothDevice.java:434) ~[?:?]
+	at org.openhab.binding.bluetooth.bluez.internal.BlueZBluetoothDevice.disconnect(BlueZBluetoothDevice.java:197) ~[?:?]
+	at org.openhab.binding.bluetooth.BeaconBluetoothHandler.dispose(BeaconBluetoothHandler.java:140) ~[?:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor81.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.openhab.core.internal.common.AbstractInvocationHandler.invokeDirect(AbstractInvocationHandler.java:154) [bundleFile:?]
+	at org.openhab.core.internal.common.Invocation.call(Invocation.java:52) [bundleFile:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+2020-12-24 09:18:54.954 [ERROR] [core.thing.internal.ThingManagerImpl] - Exception occurred while disposing handler of thing 'bluetooth:beacon:hci0:98541b14d538': Refusing activation, D-Bus is shutting down.
+org.freedesktop.dbus.exceptions.DBusExecutionException: Refusing activation, D-Bus is shutting down.
+	at jdk.internal.reflect.GeneratedConstructorAccessor241.newInstance(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:490) ~[?:?]
+	at org.freedesktop.dbus.errors.Error.getException(Error.java:157) ~[?:?]
+	at org.freedesktop.dbus.errors.Error.throwException(Error.java:187) ~[?:?]
+	at org.freedesktop.dbus.RemoteInvocationHandler.executeRemoteMethod(RemoteInvocationHandler.java:164) ~[?:?]
+	at org.freedesktop.dbus.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:228) ~[?:?]
+	at com.sun.proxy.$Proxy379.Disconnect(Unknown Source) ~[?:?]
+	at com.github.hypfvieh.bluetooth.wrapper.BluetoothDevice.disconnect(BluetoothDevice.java:434) ~[?:?]
+	at org.openhab.binding.bluetooth.bluez.internal.BlueZBluetoothDevice.disconnect(BlueZBluetoothDevice.java:197) ~[?:?]
+	at org.openhab.binding.bluetooth.BeaconBluetoothHandler.dispose(BeaconBluetoothHandler.java:140) ~[?:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor81.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.openhab.core.internal.common.AbstractInvocationHandler.invokeDirect(AbstractInvocationHandler.java:154) [bundleFile:?]
+	at org.openhab.core.internal.common.Invocation.call(Invocation.java:52) [bundleFile:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+2020-12-24 09:18:55.059 [ERROR] [nal.common.AbstractInvocationHandler] - An error occurred while calling method 'ThingHandler.dispose()' on 'org.openhab.binding.bluetooth.bluez.internal.BlueZBridgeHandler@1939c82': Refusing activation, D-Bus is shutting down.
+org.freedesktop.dbus.exceptions.DBusExecutionException: Refusing activation, D-Bus is shutting down.
+	at jdk.internal.reflect.GeneratedConstructorAccessor241.newInstance(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:490) ~[?:?]
+	at org.freedesktop.dbus.errors.Error.getException(Error.java:157) ~[?:?]
+	at org.freedesktop.dbus.errors.Error.throwException(Error.java:187) ~[?:?]
+	at org.freedesktop.dbus.RemoteInvocationHandler.executeRemoteMethod(RemoteInvocationHandler.java:164) ~[?:?]
+	at org.freedesktop.dbus.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:228) ~[?:?]
+	at com.sun.proxy.$Proxy377.StopDiscovery(Unknown Source) ~[?:?]
+	at com.github.hypfvieh.bluetooth.wrapper.BluetoothAdapter.stopDiscovery(BluetoothAdapter.java:292) ~[?:?]
+	at org.openhab.binding.bluetooth.bluez.internal.BlueZBridgeHandler.dispose(BlueZBridgeHandler.java:109) ~[?:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor81.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.openhab.core.internal.common.AbstractInvocationHandler.invokeDirect(AbstractInvocationHandler.java:154) [bundleFile:?]
+	at org.openhab.core.internal.common.Invocation.call(Invocation.java:52) [bundleFile:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+2020-12-24 09:18:55.097 [ERROR] [core.thing.internal.ThingManagerImpl] - Exception occurred while disposing handler of thing 'bluetooth:bluez:hci0': Refusing activation, D-Bus is shutting down.
+org.freedesktop.dbus.exceptions.DBusExecutionException: Refusing activation, D-Bus is shutting down.
+	at jdk.internal.reflect.GeneratedConstructorAccessor241.newInstance(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:490) ~[?:?]
+	at org.freedesktop.dbus.errors.Error.getException(Error.java:157) ~[?:?]
+	at org.freedesktop.dbus.errors.Error.throwException(Error.java:187) ~[?:?]
+	at org.freedesktop.dbus.RemoteInvocationHandler.executeRemoteMethod(RemoteInvocationHandler.java:164) ~[?:?]
+	at org.freedesktop.dbus.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:228) ~[?:?]
+	at com.sun.proxy.$Proxy377.StopDiscovery(Unknown Source) ~[?:?]
+	at com.github.hypfvieh.bluetooth.wrapper.BluetoothAdapter.stopDiscovery(BluetoothAdapter.java:292) ~[?:?]
+	at org.openhab.binding.bluetooth.bluez.internal.BlueZBridgeHandler.dispose(BlueZBridgeHandler.java:109) ~[?:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor81.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.openhab.core.internal.common.AbstractInvocationHandler.invokeDirect(AbstractInvocationHandler.java:154) [bundleFile:?]
+	at org.openhab.core.internal.common.Invocation.call(Invocation.java:52) [bundleFile:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+2020-12-24 09:19:00.106 [INFO ] [org.openhab.ui.internal.UIService   ] - Stopped UI

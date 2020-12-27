@@ -1,0 +1,157 @@
+2020-12-26 07:14:04.890 [WARN ] [org.apache.felix.fileinstall        ] - Error while starting bundle: file:/usr/share/openhab/addons/org.openhab.binding.broadlink-2.5.9.jar
+org.osgi.framework.BundleException: Could not resolve module: org.openhab.binding.broadlink [22]
+  Unresolved requirement: Import-Package: org.eclipse.smarthome.config.core
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444) ~[org.eclipse.osgi-3.12.100.jar:?]
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.start(EquinoxBundle.java:383) ~[org.eclipse.osgi-3.12.100.jar:?]
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundle(DirectoryWatcher.java:1260) [bundleFile:3.6.4]
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.startBundles(DirectoryWatcher.java:1233) [bundleFile:3.6.4]
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:520) [bundleFile:3.6.4]
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:365) [bundleFile:3.6.4]
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.run(DirectoryWatcher.java:316) [bundleFile:3.6.4]
+2020-12-26 07:15:37.958 [INFO ] [org.openhab.ui.internal.UIService   ] - Started UI on port 8080
+2020-12-26 07:15:44.687 [INFO ] [.core.internal.i18n.I18nProviderImpl] - Time zone set to 'Europe/Brussels'.
+2020-12-26 07:15:44.708 [INFO ] [.core.internal.i18n.I18nProviderImpl] - Location set to '51.180536783336244,4.387538731098176'.
+2020-12-26 07:15:44.717 [INFO ] [.core.internal.i18n.I18nProviderImpl] - Locale set to 'nl_BE'.
+2020-12-26 07:15:47.594 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/items/'s Observer 
+2020-12-26 07:15:50.760 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_25.things'
+2020-12-26 07:15:53.069 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_18.things'
+2020-12-26 07:15:53.260 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_50.things'
+2020-12-26 07:15:53.558 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_5.things'
+2020-12-26 07:15:53.667 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_0_tunnel.things'
+2020-12-26 07:15:53.799 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_8.things'
+2020-12-26 07:15:54.061 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_7.things'
+2020-12-26 07:15:54.259 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_16.things'
+2020-12-26 07:15:54.495 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_11.things'
+2020-12-26 07:15:54.677 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_14.things'
+2020-12-26 07:15:54.823 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_ntp.things'
+2020-12-26 07:15:54.974 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_15.things'
+2020-12-26 07:15:55.214 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_12.things'
+2020-12-26 07:15:55.396 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_19.things'
+2020-12-26 07:15:55.562 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_devices.things'
+2020-12-26 07:15:55.902 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_3.things'
+2020-12-26 07:15:56.080 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_2.things'
+2020-12-26 07:15:56.298 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_ntp.items'
+2020-12-26 07:15:56.821 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_3.items'
+2020-12-26 07:15:56.976 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_devices.items'
+2020-12-26 07:15:57.359 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_8.items'
+2020-12-26 07:15:57.574 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_16.items'
+2020-12-26 07:15:57.708 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_18.items'
+2020-12-26 07:15:57.862 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_5.items'
+2020-12-26 07:15:57.935 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_14.items'
+2020-12-26 07:15:58.015 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_19.items'
+2020-12-26 07:15:58.097 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_12.items'
+2020-12-26 07:15:58.193 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_50.items'
+2020-12-26 07:15:58.462 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_7.items'
+2020-12-26 07:15:58.587 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_25.items'
+2020-12-26 07:15:58.733 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_15.items'
+2020-12-26 07:15:58.852 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_11.items'
+2020-12-26 07:15:58.935 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_2.items'
+2020-12-26 07:16:25.874 [INFO ] [e.automation.internal.RuleEngineImpl] - Rule engine started.
+2020-12-26 07:16:28.920 [INFO ] [.core.model.lsp.internal.ModelServer] - Started Language Server Protocol (LSP) service on port 5007
+2020-12-26 07:19:44.501 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-26 07:20:55.251 [WARN ] [rg.openhab.core.io.net.exec.ExecUtil] - Failed to execute commandLine '[arping, --help]'
+2020-12-26 07:20:55.376 [WARN ] [rg.openhab.core.io.net.exec.ExecUtil] - Failed to execute commandLine '[arping, --help]'
+2020-12-26 07:20:58.094 [INFO ] [ternal.dhcp.DHCPPacketListenerServer] - DHCP request packet listener online
+2020-12-26 07:21:04.663 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to '192.168.3.103' with clientid 7b93deb4-1f86-4bd7-a970-ff0d0e1ee6d0
+2020-12-26 07:21:08.614 [INFO ] [rt.modbus.internal.ModbusManagerImpl] - Modbus manager activated
+2020-12-26 07:21:12.223 [WARN ] [luxdb.internal.InfluxDBConfiguration] - InfluxDB configuration isn't valid. Addon won't work:  No credentials
+2020-12-26 07:21:12.228 [WARN ] [.influxdb.InfluxDBPersistenceService] - Some configuration properties are not valid {service.config.factory=false, service.pid=org.openhab.influxdb, service.config.category=persistence, service.config.label=InfluxDB Persistence Service, component.name=org.openhab.persistence.influxdb.InfluxDBPersistenceService, component.id=336, service.config.description.uri=persistence:influxdb}
+2020-12-26 07:21:12.235 [ERROR] [.influxdb.InfluxDBPersistenceService] - Cannot load configuration, persistence service wont work
+2020-12-26 07:21:14.144 [ERROR] [io.openhabcloud.internal.CloudClient] - Error connecting to the openHAB Cloud instance
+2020-12-26 07:21:18.180 [INFO ] [rnal.service.RemoteControllerService] - Using None interface
+2020-12-26 07:21:27.214 [WARN ] [core.thing.internal.ThingManagerImpl] - Initializing handler for thing 'chromecast:chromecast:c1011d37f859ef88773fb0b8b96c9417' takes more than 5000ms.
+2020-12-26 07:21:43.499 [WARN ] [hi.software.os.linux.LinuxFileSystem] - Failed to get information to use statvfs. path: /media/pi/rootfs, Error code: 13
+2020-12-26 07:21:43.510 [WARN ] [hi.software.os.linux.LinuxFileSystem] - Failed to get information to use statvfs. path: /media/pi/boot, Error code: 13
+2020-12-26 07:21:49.150 [INFO ] [ab.ui.habpanel.internal.HABPanelTile] - Started HABPanel at /habpanel
+2020-12-26 07:26:58.984 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-26 07:27:03.885 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-26 07:27:31.216 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-26 07:29:33.718 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'knx_1_1_2.items'
+2020-12-26 08:51:57.243 [WARN ] [uth.internal.AbstractAuthPageServlet] - Authentication failed: CSRF check failed
+2020-12-26 08:52:14.970 [WARN ] [.io.rest.auth.internal.TokenResource] - PKCE verification failed
+2020-12-26 08:52:14.988 [WARN ] [.io.rest.auth.internal.TokenResource] - Token issuing failed: invalid_grant
+2020-12-26 08:52:43.630 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-26 09:27:28.541 [WARN ] [calimero.link.192.168.3.100:3671    ] - negative confirmation of 1.1.16: 2e00bd60116c1110014300
+2020-12-26 10:38:48.849 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-26 10:41:51.079 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-26 10:42:26.066 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-26 10:43:41.399 [WARN ] [e.internal.SseItemStatesEventBuilder] - Attempting to send a state update of an item which doesn't exist: undefined
+2020-12-26 13:26:01.184 [WARN ] [su.litvak.chromecast.api.v2.Channel ] - Error while reading, caused by su.litvak.chromecast.api.v2.ChromeCastException: Remote socket closed
+2020-12-26 13:26:01.186 [WARN ] [su.litvak.chromecast.api.v2.Channel ] -  <--  null payload in message 
+2020-12-26 14:29:00.562 [INFO ] [rnal.service.RemoteControllerService] - Using Legacy interface
+2020-12-26 16:06:46.209 [WARN ] [g.mqtt.handler.AbstractBrokerHandler] - Tried to unsubscribe org.openhab.binding.mqtt.homie.internal.discovery.Homie300Discovery@fb2d6e from  discovery topic homeassistant/# on broker mqtt:broker:2fe0b80954 but topic not registered for listener. Check discovery logic!
+2020-12-26 16:06:46.490 [WARN ] [g.mqtt.handler.AbstractBrokerHandler] - Tried to unsubscribe org.openhab.binding.mqtt.homeassistant.internal.discovery.HomeAssistantDiscovery@be0d16 from  discovery topic +/+/$homie on broker mqtt:broker:2fe0b80954 but topic not registered at all. Check discovery logic!
+2020-12-26 16:06:46.499 [WARN ] [g.mqtt.handler.AbstractBrokerHandler] - Tried to unsubscribe org.openhab.binding.mqtt.homeassistant.internal.discovery.HomeAssistantDiscovery@be0d16 from  discovery topic homeassistant/# on broker mqtt:broker:2fe0b80954 but topic not registered at all. Check discovery logic!
+2020-12-26 16:06:46.508 [WARN ] [g.mqtt.handler.AbstractBrokerHandler] - Tried to unsubscribe org.openhab.binding.mqtt.homeassistant.internal.discovery.HomeAssistantDiscovery@be0d16 from  discovery topic +/+/$homie on broker mqtt:broker:2fe0b80954 but topic not registered at all. Check discovery logic!
+2020-12-26 16:06:47.121 [INFO ] [ab.ui.habpanel.internal.HABPanelTile] - Stopped HABPanel
+2020-12-26 16:06:49.033 [INFO ] [basic.internal.servlet.WebAppServlet] - Stopped Basic UI
+2020-12-26 16:06:49.672 [INFO ] [io.openhabcloud.internal.CloudClient] - Shutting down openHAB Cloud service connection
+2020-12-26 16:07:00.461 [INFO ] [org.openhab.ui.internal.UIService   ] - Stopped UI
+2020-12-26 16:07:05.685 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/inbox's Observer 
+2020-12-26 16:07:05.691 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/things's Observer 
+2020-12-26 16:07:05.710 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/inbox's Observer 
+2020-12-26 16:07:05.714 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/things's Observer 
+2020-12-26 16:07:05.716 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/inbox's Observer 
+2020-12-26 16:07:05.737 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/things's Observer 
+2020-12-26 16:07:05.767 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/inbox's Observer 
+2020-12-26 16:07:05.793 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/inbox's Observer 
+2020-12-26 16:07:05.793 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/inbox's Observer 
+2020-12-26 16:07:05.797 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/things's Observer 
+2020-12-26 16:07:05.799 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/things's Observer 
+2020-12-26 16:07:05.805 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/things's Observer 
+2020-12-26 16:07:05.817 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/inbox's Observer 
+2020-12-26 16:07:05.819 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/things's Observer 
+2020-12-26 16:07:05.830 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/inbox's Observer 
+2020-12-26 16:07:05.857 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/inbox's Observer 
+2020-12-26 16:07:05.866 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/things's Observer 
+2020-12-26 16:07:05.874 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/things's Observer 
+2020-12-26 16:07:05.874 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/inbox's Observer 
+2020-12-26 16:07:05.881 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/inbox's Observer 
+2020-12-26 16:07:05.886 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/things's Observer 
+2020-12-26 16:07:05.878 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/things's Observer 
+2020-12-26 16:07:05.898 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/inbox's Observer 
+2020-12-26 16:07:05.904 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/things's Observer 
+2020-12-26 16:07:05.909 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/things's Observer 
+2020-12-26 16:07:05.904 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/inbox's Observer 
+2020-12-26 16:07:05.922 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/inbox's Observer 
+2020-12-26 16:07:05.925 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/things's Observer 
+2020-12-26 16:07:05.933 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/inbox's Observer 
+2020-12-26 16:07:05.933 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/things's Observer 
+2020-12-26 16:07:05.936 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/inbox's Observer 
+2020-12-26 16:07:05.942 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/things's Observer 
+2020-12-26 16:07:05.951 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/inbox's Observer 
+2020-12-26 16:07:05.956 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/inbox's Observer 
+2020-12-26 16:07:05.992 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/inbox's Observer 
+2020-12-26 16:07:05.998 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/inbox's Observer 
+2020-12-26 16:07:05.992 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/things's Observer 
+2020-12-26 16:07:06.003 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/things's Observer 
+2020-12-26 16:07:06.008 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/things's Observer 
+2020-12-26 16:07:06.012 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/things's Observer 
+2020-12-26 16:07:06.023 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/inbox's Observer 
+2020-12-26 16:07:06.030 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/things's Observer 
+2020-12-26 16:07:06.030 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/inbox's Observer 
+2020-12-26 16:07:06.029 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/things's Observer 
+2020-12-26 16:07:06.047 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/things's Observer 
+2020-12-26 16:07:06.050 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/inbox's Observer 
+2020-12-26 16:07:06.055 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/things's Observer 
+2020-12-26 16:07:06.055 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/inbox's Observer 
+2020-12-26 16:07:06.061 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/inbox's Observer 
+2020-12-26 16:07:06.061 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/things's Observer 
+2020-12-26 16:07:06.067 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/inbox's Observer 
+2020-12-26 16:07:06.070 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/things's Observer 
+2020-12-26 16:07:06.081 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/inbox's Observer 
+2020-12-26 16:07:06.087 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/things's Observer 
+2020-12-26 16:07:06.095 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/things's Observer 
+2020-12-26 16:07:06.103 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/things's Observer 
+2020-12-26 16:07:06.103 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/inbox's Observer 
+2020-12-26 16:07:06.108 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/inbox's Observer 
+2020-12-26 16:07:06.106 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/things's Observer 
+2020-12-26 16:07:06.106 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/inbox's Observer 
+2020-12-26 16:07:06.123 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/things's Observer 
+2020-12-26 16:07:06.123 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/inbox's Observer 
+2020-12-26 16:07:06.123 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/inbox's Observer 
+2020-12-26 16:07:06.137 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/things's Observer 
+2020-12-26 16:07:06.147 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/inbox's Observer 
+2020-12-26 16:07:06.147 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/things's Observer 
+2020-12-26 16:07:06.152 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://192.168.3.103:8080/rest/inbox's Observer 
